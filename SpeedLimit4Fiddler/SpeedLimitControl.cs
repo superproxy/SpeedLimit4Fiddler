@@ -138,22 +138,22 @@ namespace SuperProxy.SpeedLimt4Fiddler
 
         private void button2_Click(object sender, EventArgs e)
         {
-            model.RequestDelaySpeed = 200;
-            model.ReponseDelaySpeed = 100;
+            model.RequestDelaySpeed = 100;
+            model.ReponseDelaySpeed = 200;
             updateUI(model); 
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            model.RequestDelaySpeed = 900;
-            model.ReponseDelaySpeed = 480;
+            model.RequestDelaySpeed = 480;
+            model.ReponseDelaySpeed = 900;
             updateUI(model); 
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            model.RequestDelaySpeed = 10000;
-            model.ReponseDelaySpeed = 5000;
+            model.RequestDelaySpeed = 5000;
+            model.ReponseDelaySpeed = 10000;
             updateUI(model);
         }
     }
